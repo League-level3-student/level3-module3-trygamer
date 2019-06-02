@@ -14,6 +14,13 @@ public class Farm {
 		farm.add(new Pig());
 		farm.add(new Chicken());
 		
+		
+		
+		for(int i= 0 ; i< farm.size(); i++) {
+		farm.get(i).makeNoise();
+		farm.get(i).eatFood();
+		
+		}
 	}
 	
 		

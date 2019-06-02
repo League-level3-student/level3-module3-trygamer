@@ -9,7 +9,10 @@ public class LosAngeles extends City{
 
 	@Override
 	double getAnnualTaxes() {
-		return 0;
+		double gat =(growthRate/2* growthRate)* population ;
+		
+		System.out.println(gat);
+		return gat;
 	}
 	
 }

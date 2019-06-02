@@ -6,12 +6,13 @@ public class Pig extends Animal{
 	public void makeNoise() {
 		// TODO Auto-generated method stub
 		
+		System.out.println("oinkkkkk");
 	}
 
 	@Override
 	public void eatFood() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Garbage");
 	}
 
 }
